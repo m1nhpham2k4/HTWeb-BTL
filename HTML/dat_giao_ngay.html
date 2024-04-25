@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt giao ngay</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="../bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/dat_giao_ngay.css">
+    <link rel="stylesheet" href="../themify-icons-font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div class="header">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark nav">
+        <div class="container-fluid">
+          <a class="navbar-brand col-sm-3" style="padding-left: 50px; text-align: center;" href="../HTML/trangchu.html">BAKES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav nav">
+              <li class="nav-item" style="padding-right: 50px;">
+                <a class="nav-link" href="#">ĐẶT GIAO NGAY</a>
+              </li>
+              <li class="nav-item" style="padding-right: 50px;">
+                <a class="nav-link" href="../HTML/Dathangtruoc.html">ĐẶT HÀNG TRƯỚC</a>
+                <ul class="sub-menu-c2">
+                  <li><a href="../HTML/DHT_ICECREAMCAKES.html">ICE CREAM CAKES (NEW!)</a></li>
+                  <li><a href="../HTML/DHT_BSN.html">BÁNH SINH NHẬT</a></li>
+                  <li><a href="../HTML/DHT_BNP.html">BÁNH NGỌT PHÁP</a></li>
+                  <li><a href="../HTML/DHT_macarons.html">MACARONS</a></li>
+                  <li><a href="../HTML/DHT_banhnuong.html">BÁNH NƯỚNG</a></li>
+                  <li><a href="../HTML/DHT_douong.html">ĐỒ UỐNG</a></li>
+                </ul>
+              </li>
+              <li class="nav-item" style="padding-right: 50px;">
+                <a class="nav-link" href="#">SỰ KIỆN & CATERING</a>
+              </li>
+              <li class="nav-item" style="padding-right: 50px;">
+                <a class="nav-link" href="../HTML/Ve_Bakes.html">VỀ BAKES</a>
+              </li>
+              <li class="nav-item" style="padding-right: 50px;">
+                <a href="../HTML/dangnhap.html" class="nav-link">
+                  <i class="ti-user"></i>
+                </a>
+              </li>
+              <li class="nav-item" style="padding-right: 50px;">
+                <a href="#" class="nav-link">
+                  <i class="ti-shopping-cart"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="BaoTri pt-5" align="center">
+        <div class="details">
+            <div class="center-location">
+                <div class="location-details" onclick="changeMap(1)">
+                    <h4>Trung tâm 1</h4>
+                    <p><span class="material-symbols-outlined">location_on</span>123 Đường Hoa Hồng, Phường 1, Quận Gò Vấp</p>
+                    <p><span class="material-symbols-outlined">call</span>0945 678 912</p>
+                    <p><span class="material-symbols-outlined">schedule</span>Thứ hai đến thứ bảy: 08:00 - 17:30</p>
+                    <button  id="seeMore" onclick="openLocationModal('locationModal1')">Tìm hiểu thêm</button>
+                </div>
+                <div class="location-details" onclick="changeMap(2)">
+                    <h4>Trung tâm 2</h4>
+                    <p><span class="material-symbols-outlined">location_on</span>456 Đường Bạch Đằng, Phường 2, Quận Tân Bình</p>
+                    <p><span class="material-symbols-outlined">call</span>0123 456 789</p>
+                    <p><span class="material-symbols-outlined">schedule</span>Thứ hai đến thứ bảy: 08:00 - 17:30</p>
+                    <button  id="seeMore"  onclick="openLocationModal('locationModal2')">Tìm hiểu thêm</button>
+                </div>
+                <div class="location-details" onclick="changeMap(3)">
+                    <h4>Trung tâm 3</h4>
+                    <p><span class="material-symbols-outlined">location_on</span>789 Đường Lê Lai, Phường 3, Quận 1</p>
+                    <p><span class="material-symbols-outlined">call</span>0987 654 321</p>
+                    <p><span class="material-symbols-outlined">schedule</span>Thứ hai đến thứ bảy: 08:00 - 17:30</p>
+                    <button  id="seeMore" onclick="openLocationModal('locationModal3')">Tìm hiểu thêm</button>
+                </div>
+                <div class="location-details" onclick="changeMap(4)">
+                    <h4>Trung tâm 4</h4>
+                    <p><span class="material-symbols-outlined">location_on</span>321 Đường Nguyễn Trãi, Phường 4, Quận 5</p>
+                    <p><span class="material-symbols-outlined">call</span>0912 345 678</p>
+                    <p><span class="material-symbols-outlined">schedule</span>Thứ hai đến thứ bảy: 08:00 - 17:30</p>
+                    <button  id="seeMore" onclick="openLocationModal('locationModal4')">Tìm hiểu thêm</button>
+                </div>
+                <div class="location-details" onclick="changeMap(5)">
+                    <h4>Trung tâm 5</h4>
+                    <p><span class="material-symbols-outlined">location_on</span>654 Đường Cách Mạng Tháng Tám, Phường 5, Quận 3</p>
+                    <p><span class="material-symbols-outlined">call</span>0967 854 123</p>
+                    <p><span class="material-symbols-outlined">schedule</span>Thứ hai đến thứ bảy: 08:00 - 17:30</p>
+                    <button  id="seeMore" data-modal="locationModal5" onclick="openLocationModal('locationModal5')" >Tìm hiểu thêm</button>
+                </div>
+            </div>
+        </div>
+        <div id="ggmap" class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d872.7643404229087!2d106.64107887105799!3d10.843466762963278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1713409200552!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> 
+        <script>
+            function changeMap(Num){
+                switch(Num){
+                    case 1:
+                        document.getElementById("ggmap").innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1165.1794411091885!2d106.68955190477739!3d10.79745595411226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ce48cfad8d%3A0xb819f18ffcab5b7c!2zMTIzIEhvYSBI4buTbmcsIFBoxrDhu51uZyA3LCBQaMO6IE5odeG6rW4sIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1713439756341!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+                        break;
+                    case 2:
+                        document.getElementById("ggmap").innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.9487873500593!2d106.66722197765417!3d10.815231231004564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175291f1fc537db%3A0xb8c2f680c7a95272!2zNDU2IELhuqFjaCDEkOG6sW5nIFAuIDIsIFBoxrDhu51uZyAyLCBUw6JuIELDrG5oLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2sus!4v1713440334114!5m2!1svi!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+                        break;
+                    case 3:
+                        document.getElementById("ggmap").innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5392567405434!2d106.68880007764999!3d10.769948231950654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4742c26a41%3A0xf609e1e707f70bba!2zxJAuIEzDqiBMYWksIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1713440506662!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+                        break;
+                    case 4:
+                        document.getElementById("ggmap").innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.722573747662!2d106.67294697476616!3d10.755851359573473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752efd6ffa22a9%3A0xf32db541824cb899!2zMzIxIMSQLiBOZ3V54buFbiBUcsOjaSwgUGjGsOG7nW5nIDcsIFF14bqtbiA1LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2sus!4v1713440571143!5m2!1svi!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+                        break;
+                    case 5:
+                        document.getElementById("ggmap").innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4919870870363!2d106.68790887476632!3d10.773580259246744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3c9db7a413%3A0x1d8ce28190676b0b!2zNjU0IMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyBQaOG6oW0gTmfFqSBMw6NvLCBRdeG6rW4gMSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1713440610366!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+                        break;
+                    }
+            }
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.header .nav a:hover{ 
+    color: rgb(127, 74, 58);
+}
+
+.card-title h6{
+    color: rgb(127, 74, 58);
+}
+
+.card-group a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 12px rgb(78, 86, 77);
+    transform: translateY(-2px);
+}
+.card{
+    transition: all 0.5s;
+}
+
+.nav li:hover .sub-menu-c2{
+    display: block;
+}
+
+.sub-menu-c2{
+    margin-top: 8px;
+    background-color: white;
+    position: absolute;
+    display: none;
+    z-index: 3;
+    padding:20px
+}
+
+.sub-menu-c2:hover{
+    display: inline;
+}
+
+.sub-menu-c2 li a{
+    color: rgb(127, 74, 58);
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.sub-menu-c2 li a:hover{
+    color: red;
+}
+
+.sub-menu-c2 li{
+    list-style: none;
+}
+
+.them-vao-gio-hang-1{
+    margin-left: 2px;
+}
+
+footer{
+    display: flex;
+}
+
+.left-ft{
+    width: 60%;
+    height: 500px;
+    background-color: rgb(243, 242, 236);
+    padding-top: 100px;
+}
+
+.right-ft{
+    width: 40%;
+    background-color: rgb(218, 80, 54);
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.ft-chu{
+    
+    color: white;
+}
+.themify-icon1{
+    margin-right: 50px;
+}
+
+
+    
+
+    
+.p1{
+    margin: 10px;
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+.p2{
+    margin: 10px;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+h2{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    color: white;
+}
+
+.content{
+    height: 1400px;
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.content-menu{
+    margin: 5px;
+    width: 20%;
+    height: 300px;
+    background-color: rgb(214, 215, 215);
+    float:left;
+}
+.content-list{
+    margin: 5px;
+    width: 78%;
+    height: 950px;
+    border: solid rgb(214, 215, 215);
+    float:left;
+}
+
+
+.navitem {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+}
+.na a:hover{
+    color: white;
+}
+.card-title h6{
+    color: rgb(48, 40, 40);
+}
+
+.card-group a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 12px rgb(65, 65, 65);
+    transform: translateY(-2px);
+}
+.card{
+    transition: all 0.5s;
+    width: 265px;
+    height: 180px;
+    margin: 10px;
+}
+.card-footer{
+    text-align: center;
+}
+button{
+    align-items: center;
+}

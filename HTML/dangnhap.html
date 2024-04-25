@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="../bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/dangnhap.css">
+    <script src="../bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script src="../JS/jQuery.js"></script>
+    <link rel="stylesheet" href="../themify-icons-font/themify-icons/themify-icons.css">
+    <script src="../JS/trangchu.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark nav-menu">
+                  <div class="container-fluid">
+                    <a class="navbar-brand col-sm-3" style="padding-left: 50px; text-align: center;" href="../HTML/trangchu.html">BAKES</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                      <ul class="navbar-nav nav">
+                        <li class="nav-item" style="padding-right: 50px;">
+                          <a class="nav-link" href="../HTML/dat_giao_ngay.html">ĐẶT GIAO NGAY</a>
+                        </li>
+                        <li class="nav-item" style="padding-right: 50px;">
+                          <a class="nav-link" href="../HTML/dathangtruoc.html">ĐẶT HÀNG TRƯỚC</a>
+                          <ul class="sub-menu-c2">
+                            <li><a href="../HTML/ICE_CREAM_CAKES.html">ICE CREAM CAKES (NEW!)</a></li>
+                            <li><a href="../HTML/DHT_BSN.html">BÁNH SINH NHẬT</a></li>
+                            <li><a href="../HTML/DHT_BNP.html">BÁNH NGỌT PHÁP</a></li>
+                            <li><a href="../HTML/DHT_macarons.html">MACARONS</a></li>
+                            <li><a href="../HTML/DHT_banhnuong.html">BÁNH NƯỚNG</a></li>
+                            <li><a href="../HTML/DHT_douong.html">ĐỒ UỐNG</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item" style="padding-right: 50px;">
+                          <a class="nav-link" href="#">SỰ KIỆN & CATERING</a>
+                        </li>
+                        <li class="nav-item" style="padding-right: 50px;">
+                          <a class="nav-link" href="../HTML/Ve_Bakes.html">VỀ BAKES</a>
+                        </li>
+                        <li class="nav-item" style="padding-right: 50px;">
+                          <a href="#" class="nav-link">
+                            <i class="ti-user"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item" style="padding-right: 50px;">
+                          <a href="#" class="nav-link">
+                            <i class="ti-shopping-cart"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+                <form>
+                    <div class="mb-3">
+                        <div class="dang_nhap" style="text-align: center;"><h4>Đăng nhập</h4></div>
+                        <label for="exampleInputEmail1" class="form-label">Nhập tên đăng nhập</label>
+                        <input type="email" class="form-control" id="user" placeholder="Nhập tên đăng nhập">
+                        <span style="color: red;" id="erruser">*</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="userpw" placeholder="Mật khẩu">
+                        <span style="color: red;" id="errpw">*</span>
+                    </div>
+                        <button type="submit" class="btn btn-light dang_nhap button_dn" id="Luu"><h4>Đăng nhập</h4></button>
+                </form>
+                <div class="text-center pt-5"><a href="../HTML/dangky.html"><button type="submit" class="btn btn-light dang_nhap button_dn"><h4>Đăng ký</h4></button></a></div>
+        </div>
+        <footer>
+          <div class="left-ft">
+            <div class="row">
+              <div class="col-4" style="padding-left: 20px;">
+                <h6>Về BAKES</h6>
+                <p>Một tiệm bánh ngọt Pháp. Bakes tin rằng bánh ngọt nên giống như tình yêu: Thú vị, chu đáo và trung thực</p>
+                <p>Còn lại chỉ là bao bì</p>
+              </div>
+              <div class="col-4">
+                <h6>DỊCH VỤ KHÁCH HÀNG</h6>
+                <p>Hotline: +84 942415448</p>
+                <p>Đối tác thương hiệu: +84 825367276</p>
+                <p>(Thứ 2 - Thứ 6, 09:00 - 18:00)</p>
+                <p>Email: minh02122004@gmail.com</p>
+                <p>Email: caohunglong@gmail.com</p>
+              </div>
+              <div class="col-4">
+                <h6>ĐẾN THĂM BAKES</h6>
+                <div>
+                  <h6>Bakes Thảo Điền</h6>
+                  <p>Tiệm Bánh Mặn, Ngọt, Bistro và Bar 16 Thảo Điền, Quận 2, TP.HCM</p>
+                </div>
+                <div>
+                  <h6>Bakes Hồ Con Rùa</h6>
+                  <p>Tiệm Bánh Mặn và Ngọt</p>
+                  <p>47 Trần Cao Vân, Quận 3, TP.HCM</p>
+                </div>
+                <div>
+                  <h6>Bakes Pasteur</h6>
+                  <p>Tiệm Bánh Mặn và Ngọt</p>
+                  <p>244 Pasteur, Quận 3, TP.HCM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-ft">
+            <h3 class="ft-chu">Tham Gia Bakes Club</h3>
+            <h6 class="ft-chu"> Đăng ký để nhận tin tức và ưu đãi đặc biệt chỉ dành cho thành viên bằng cách theo dõi</h6>
+            <h3><a href="" class="ft-chu">Bakes Zalo Official Account</a></h3>
+          </div>
+        </footer>
+        <hr>
+        <div class="row"
+        >
+          <div class="col-9">
+            &copy; BAKES SAIGON 2024
+        </div>
+          <div class="col-3">
+            <a href="https://www.facebook.com/minh.phamvietdung.1"><i class="ti-facebook themify-icon1"></i></a>
+            <a href=""><i class="ti-instagram themify-icon1"></i></a>
+            <a href=""><i class="ti-youtube themify-icon1"></i></a>
+            <a href=""><i class="ti-twitter themify-icon1"></i></a>
+          </div>
+        </div>
+    </div>
+    <a id="loginLink" href="../HTML/trangchu.html" style="display: none;"></a>
+    <script>
+      var dn, mk;
+      $(function(){
+        $("#user").blur(function(){
+                var user = document.getElementById("user").value;
+                if(user == null || user == ""){
+                    erruser.innerHTML = "Tên đăng nhập không được rỗng";
+                    $("#user").focus();
+                    dn = 0;
+                }
+                else{
+                    var reg = /^.{6,12}$/
+                    if(reg.test(user)){
+                        erruser.innerHTML = "Hợp lệ"
+                        dn = 1;
+                    }
+                    else{
+                        dn = 0;
+                        erruser.innerHTML = "Tên đăng nhập không hợp lệ từ 6 đến 12 kí tự"
+                        $("#user").focus();
+                    }
+                }
+            })
+
+            $("#userpw").blur(function(){
+                var pass = document.getElementById("userpw").value;
+                if(pass == null || pass == "")
+                {
+                    mk = 0;
+                    errpw.innerHTML = "Mật khẩu không được rỗng"
+                    $("#userpw").focus();
+                }
+                else{
+                    var reg = /^\w{6,20}$/
+                    if(reg.test(pass)){
+                        errpw.innerHTML = "Hợp lệ"
+                        mk = 1;
+                    }
+                    else{
+                        errpw.innerHTML = "Mật khẩu không hợp lệ phải có độ dài từ 6 đến 20 kí tự"
+                        $("#userpw").focus();
+                        mk = 0;
+                    }
+                }
+            })
+            $("#Luu").click(function(){
+                if(dn,mk){
+                    alert("Đăng ký thành công");
+                    $("#loginLink")[0].click(); // Chuyển hướng đến trang đăng nhập
+                }
+                    
+                else{
+                    alert("Có thông tin sai. Vui lòng nhập lại thông tin")
+                }
+            })
+      })
+    </script>
+</body>
+</html>

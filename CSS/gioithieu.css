@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.sub-menu-c2{
+    margin-top: 8px;
+    background-color: white;
+    position: absolute;
+    display: none;
+    z-index: 3;
+    padding:20px
+}
+.sub-menu-c2 li a{
+    color: rgb(127, 74, 58);
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+.sub-menu-c2 li{
+    list-style: none;
+}
+
+.sub-menu-c2:hover{
+    display: inline;
+}
+.sub-menu-c2 li a:hover{
+    color: red;
+}
+.nav li:hover .sub-menu-c2{
+    display: block;
+}
+.header .nav a:hover{ 
+    color: rgb(127, 74, 58);
+}
